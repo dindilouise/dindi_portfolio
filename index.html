@@ -3,12 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
+         <link rel="stylesheet" type="text/css" href="my_website.css">
     </head>
-    <body style="background-color:lightcyan;">
+   <body>
+       
          <a href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="aboutme.html">About Me</a>
-         <h1>This is my test Home Page!</h1>
+           <center><canvas id="myCanvas" width="300" height="90" style"border:1px solid #d3d3d3;">Your browser does not upport the HTML5 canvas tag</canvas>
+<script> var c=document.getElementById("myCanvas"); var ctx=c.getContext("2d"); ctx.font="55px Arial"; ctx.strokeText("My Home",10,60);</script></center> 
+
         <img src="images/home.jpg" height="200">
     </body>
 </html>
